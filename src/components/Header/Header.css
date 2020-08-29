@@ -1,0 +1,39 @@
+.Header .logo{
+    text-align: center;
+}
+.Header img{
+    height: 80px;
+}
+.Header .scerch{
+    width: 100%;
+    background-color: #333;
+    line-height: 100px;
+    padding: 0 5%;
+}
+.Header .scerch input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+.Header .fa-cart-plus{
+    font-size: 25px;
+    padding-left: 10px;
+    color: #fff;
+}
+.Header ul{
+    width: 100%;
+    background-color: #000;
+    line-height: 50px;
+    padding-left: 10%;
+    margin: 0px;
+}
+.Header ul a{
+    color: #fff;
+    text-decoration: none;
+    padding: 14px;
+    transition: .5s;
+}
+.Header ul a:hover{
+    background-color: gray;
+}

@@ -1,0 +1,16 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.product .product-img{
+    padding: 0 30px;
+}
+.product .procuct-name{
+    color: blue;
+    margin: 0;
+}
+.product .product-btn{
+    cursor: pointer;
+    background-color: gold;
+    padding: 5px 50px;
+}
