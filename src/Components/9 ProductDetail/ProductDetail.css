@@ -1,0 +1,19 @@
+.pdd{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.pdd .img-container{
+    width: 45%;
+}
+.pdd img{
+    width: 350px;
+}
+.pdd .content-container{
+    width: 52%;
+    border-left: 1px solid lightgray;
+    padding-left: 20px;
+}

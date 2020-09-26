@@ -1,0 +1,15 @@
+.Cart{
+    width: 100%;
+    text-align: center;
+}
+.Cart .cartContainer{
+    display: flex;
+    justify-content: space-around ;
+}
+.cart-props{
+    text-align: left;
+}
+.cart-values{
+    text-align: right;
+    float: righ;
+}

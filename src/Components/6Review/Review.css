@@ -1,0 +1,11 @@
+.Review .container{
+    display: flex;
+    justify-content: space-around;
+}
+.Review .container .left{
+    width: 75%;
+}
+.Review .container .right{
+    border-left: 1px solid lightgray;
+    text-align: center;
+}

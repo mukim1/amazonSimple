@@ -1,0 +1,7 @@
+.ReviewItem{
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.ReviewItem .review-container{
+    display: flex;
+}

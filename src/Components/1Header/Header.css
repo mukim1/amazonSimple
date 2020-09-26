@@ -1,0 +1,99 @@
+.Head .header{
+    background-color: #131921;
+    height: 60px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img{
+    width: 150px;
+}
+.nav-left .fa-bars{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 00;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.nav-center{
+    width: 55%;
+    position: relative;
+}
+.form-control{
+    width: 40%;
+}
+.nav-right{
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    margin-top: 8p;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-right span{
+    color: #999;
+}
+.order,
+.header .cart{
+    padding-left: 40px;
+}
+.nav-right h4{
+    font-size: 14px;
+}
+.location{
+    background-color: #232f3e;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 90px;
+    display: flex;
+}
+.location .menu{
+    text-align: center;
+}
+.location .menu ul a{
+    text-align: center;
+    color: #999;
+    padding: 2px 20px;
+    transition: .2s;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.location .menu ul a:hover{
+    padding: 3px 20px;
+    border: 1px solid gray;
+    color: #fff;
+}
+.location div{
+    display: flex;
+}
+.fa-map-marker-alt{
+    padding: 7px 10px;
+}
+@media screen and (max-width: 768px){
+    .header{
+        display: grid;
+        height: 120px;
+        justify-content: stretch;
+    }
+    .nav-center{
+        width: 100%;
+        padding: 0px;
+        display: block;
+    }
+    .sign-in,
+    .order{
+        display: none;
+    }
+    .Cart{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+    .location{
+        padding: 0px 10px;
+    }
+}
